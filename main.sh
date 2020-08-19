@@ -1,1 +1,1 @@
-echo Hello World
+python replace_vowels_with_o.py
