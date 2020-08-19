@@ -1,12 +1,12 @@
 
 def replace_vowels_with_o(input_string):
-  output_string = ''
-  for char in input_string:
-      if char in ['a','e','i','o','u','y']:
-          output_string += 'o'
-      else:
-          output_string += char
-  return output_string
+    output_string = ''
+    for char in input_string:
+        if char in ['a', 'e', 'i', 'o', 'u', 'y']:
+            output_string += 'o'
+        else:
+            output_string += char
+    return output_string
 
 actual_output = replace_vowels_with_o('hello there')
 desired_output = 'hollo thoro'
